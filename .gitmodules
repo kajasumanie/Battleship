@@ -1,0 +1,3 @@
+[submodule "battleship-frontend"]
+	path = battleship-frontend
+	url = https://github.com/kajasumanie/battleship-frontend.git
