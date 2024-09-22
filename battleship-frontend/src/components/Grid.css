@@ -1,0 +1,51 @@
+.grid-table {
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+  
+  .grid-cell {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #ddd;
+    font-size: 24px;
+    transition: background-color 0.2s ease;
+  }
+  
+  .grid-cell.water {
+    background-color: #87CEEB;
+  }
+  
+  .grid-cell.hit {
+    background-color: red;
+    color: white;
+  }
+  
+  .grid-cell.miss {
+    background-color: #eee;
+  }
+  
+  .grid-cell:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .reset-button {
+    padding: 10px 20px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.2s ease;
+  }
+  
+  .reset-button:hover {
+    background-color: #d32f2f;
+  }
+  
+  .message {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  

@@ -1,0 +1,65 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #d0e1f9;
+  margin: 0;
+  padding: 0;
+}
+
+.game-container {
+  text-align: center;
+}
+
+.grid-table {
+  margin: 20px auto;
+  border-spacing: 10px; /* Increased spacing between cells */
+}
+
+.grid-cell {
+  width: 50px; /* Cell width */
+  height: 40px; /* Cell height */
+  padding: 10px; /* Added padding for better spacing */
+  border: 2px solid #000; /* Thicker border for visibility */
+  border-radius: 8px; /* Rounded corners */
+  cursor: pointer;
+  font-size: 24px;
+  text-align: center;
+  vertical-align: middle;
+  transition: background-color 0.3s, transform 0.3s; /* Smooth transitions */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+
+.grid-cell:hover {
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.grid-cell.water {
+  background-color: rgb(84, 79, 236); /* Water */
+}
+
+.grid-cell.miss {
+  background-color: rgb(138, 129, 236); /* Miss */
+}
+
+.grid-cell.hit {
+  background-color: rgb(231, 99, 99); /* Hit */
+}
+
+/* Reset button styling */
+.reset-button {
+  margin-top: 20px;
+  padding: 12px 24px; /* Increased padding */
+  font-size: 18px; /* Larger font size */
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s; /* Smooth transitions */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+.reset-button:hover {
+  background-color: #45a049;
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
